@@ -8,42 +8,104 @@ body{
   font-weight: 400;
 }
 
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*name on top**/
-h1{
+#name {
   font-size: 3em;
   text-transform:uppercase;
   text-align: center;
-  color: #33485e;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width:300px;
+  margin: 0 auto;
 }
 
 /*name banner under contact info*/
-strong{
+#title{
   color:#33485e;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
   text-transform:uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*section banners*/
-h2{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color:#33485e;
   color: #FFF;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /*job positions*/
-h3{
+.jobtitle{
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /*font size for organizations*/
-h4{
-  font-size: 1.5em;
+.organization{
+  font-size: 1.25em;
 }
 
 /*format for dates*/
-h5{
+.date{
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+/*format for paragraphs*/
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/*format for contact info*/
+.menu{
+  margin: 0 auto;
+  padding: 0 auto;
+  display: inline;
+  text-align: center;
+}
+/*format for education*/
+#degrees{
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+/*format for skills*/
+#do{
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+/*format for mission statement*/
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
