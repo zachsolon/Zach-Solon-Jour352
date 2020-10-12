@@ -85,9 +85,14 @@ body{
 .menu{
   margin: 0 auto;
   padding: 0 auto;
-  display: inline;
   text-align: center;
+  list-style-type: none;
 }
+
+.menu li {
+  display: inline;
+}
+
 /*format for education*/
 #degrees{
   margin-top: 5px;
