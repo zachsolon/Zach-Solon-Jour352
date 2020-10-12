@@ -88,7 +88,7 @@ body{
   text-align: center;
   list-style-type: none;
 }
-
+/*format for contact info list*/
 .menu li {
   display: inline;
 }
