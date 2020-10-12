@@ -15,7 +15,7 @@ body{
 }
 
 /*name on top**/
-#name {
+#name{
   font-size: 3em;
   text-transform:uppercase;
   text-align: center;
@@ -89,7 +89,7 @@ body{
   list-style-type: none;
 }
 /*format for contact info list*/
-.menu li {
+.menu li{
   display: inline;
 }
 
