@@ -44,11 +44,15 @@ img{
 }
 
 blockquote{
-  display: large;
-  font-family: Myriad Pro;
+  font: 16px/24px myriad pro;
+  font-style: italic;
   font-weight: bold;
-  text-align: center;
-  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px
+  color: maroon;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
 }
 
 li{
