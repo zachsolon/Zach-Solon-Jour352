@@ -2,3 +2,55 @@
   margin: 0 auto;
   width: 900px;
 }
+
+h1{
+  color: Maroon;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+h2{
+  font-family: Georgia;
+  font-size: 20px;
+}
+h3{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+p{
+  font-family: Georgia;
+  font-size: 13px;
+}
+
+img{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#caption{
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+blockquote{
+  display: large;
+  font-family: Myriad Pro;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+li{
+  font-size: 13px;
+  font-weight: 600;
+}
