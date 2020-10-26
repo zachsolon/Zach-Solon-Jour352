@@ -1,0 +1,39 @@
+#content{
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1{
+  text-align: center;
+  font-family: Myriad Pro;
+  font-size: 40px;
+}
+
+#byline{
+  font-size: 14px;
+  font-style: italic;
+}
+
+img{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: inline;
+}
+
+#caption{
+  font-size: 12px;
+  font-style: italic;
+  font-family: Times;
+}
+
+h2{
+  text-align: left;
+  font-family: Myriad Pro;
+  font-size: 25px;
+}
+
+p{
+  font-family: Helvetica, arial;
+  font-size: 12px;
+}
