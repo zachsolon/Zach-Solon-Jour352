@@ -1,8 +1,20 @@
+/*Style for Rapinoe Story*/
+
 #content{
   margin: 0 auto;
   width: 900px;
 }
 
+/*SOLON ILLUSTRATED*/
+#masthead{
+  font-family: copperplate;
+  text-align: center;
+  font-size: 75px;
+  color: red;
+  border: 4px dashed red;
+}
+
+/*Headline*/
 h1{
   text-align: center;
   font-family: Myriad Pro;
@@ -14,6 +26,7 @@ h1{
   font-style: italic;
 }
 
+/*All Images*/
 img{
   width: 100%;
   max-width: 1000px;
@@ -21,19 +34,46 @@ img{
   display: inline;
 }
 
+/*All Captions*/
 #caption{
   font-size: 12px;
   font-style: italic;
   font-family: Times;
 }
 
+/*Subheadings*/
 h2{
   text-align: left;
   font-family: Myriad Pro;
   font-size: 25px;
 }
 
+/*All Quotes*/
+blockquote{
+  font: 16px/24px myriad pro;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px
+  color: navy blue;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid navy;
+}
+
+/*General Text*/
 p{
   font-family: Helvetica, arial;
   font-size: 12px;
+}
+
+h3{
+  text-align: left;
+  font-family: Myriad Pro;
+  font-size: 18px;
+}
+
+li{
+  font-family: Myriad Pro;
+  font-size: 15px;
 }
