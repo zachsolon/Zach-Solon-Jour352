@@ -38,6 +38,8 @@ body{
   margin-right: 0;
 }
 
+
+
 /*section banners*/
 .sectionheader{
   font-size: 1.5em;
@@ -113,4 +115,26 @@ body{
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.display-4{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  filter: blur(0px);
+}
+
+.col-md-4{
+  text-align: center;
+  border: solid red;
+}
+
+.jumbotron{
+  background-image:url(https://www.mycoalition.org/public/info/34/image/banner);
+}
+
+.lead{
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
