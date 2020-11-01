@@ -38,7 +38,14 @@ body{
   margin-right: 0;
 }
 
+.navbar-brand{
+  font-family: Georgia;
+  font-weight: bold;
+}
 
+.nav-item{
+  font-family: Georgia;
+}
 
 /*section banners*/
 .sectionheader{
@@ -83,17 +90,6 @@ body{
   margin-left: 0;
   margin-right: 0;
 }
-/*format for contact info*/
-.menu{
-  margin: 0 auto;
-  padding: 0 auto;
-  text-align: center;
-  list-style-type: none;
-}
-/*format for contact info list*/
-.menu li{
-  display: inline;
-}
 
 /*format for education*/
 #degrees{
@@ -119,22 +115,25 @@ body{
 
 .display-4{
   text-align: center;
-  color: red;
+  color: black;
+  font-family: Georgia;
   font-weight: bold;
-  filter: blur(0px);
+  border
 }
 
 .col-md-4{
   text-align: center;
-  border: solid red;
+  border: solid #DC143C;
 }
 
 .jumbotron{
-  background-image:url(https://www.mycoalition.org/public/info/34/image/banner);
+  background-image: url(https://umterps.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2016/6/8/RSSPWRLGVTNWADF.20160608160815.jpg);
+  border: solid #DC143C 15px;
 }
 
 .lead{
   color: white;
   font-weight: bold;
   text-align: center;
+  align-items: baseline;
 }
