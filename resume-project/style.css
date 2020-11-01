@@ -49,23 +49,26 @@ body{
 
 /*section banners*/
 .sectionheader{
-  font-size: 1.5em;
+  font-size: 25px;
   text-transform: uppercase;
-  background-color:#33485e;
-  color: #FFF;
-  font-weight: 400;
+  color: black;
+  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
   margin-left: 0;
-  width: 70%;
+  width: 100%;
   min-width: 300px;
+  border: solid blue;
+  text-align: center;
+  font-family: Georgia;
 }
 
 /*job positions*/
 .jobtitle{
   font-weight: 600;
   font-size: 1.5em;
+  color: black;
 }
 
 /*font size for organizations*/
@@ -115,7 +118,7 @@ body{
 
 .display-4{
   text-align: center;
-  color: black;
+  color: blue;
   font-family: Georgia;
   font-weight: bold;
   border
@@ -123,17 +126,30 @@ body{
 
 .col-md-4{
   text-align: center;
-  border: solid #DC143C;
+  border: solid blue;
+}
+
+.col-md-4 h3{
+  text-align: center;
+  font-family: Georgia;
+  color: black;
+}
+
+.col-md-4 p{
+  text-align: center;
+  font-family: Georgia;
+  color: black;
 }
 
 .jumbotron{
-  background-image: url(https://umterps.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2016/6/8/RSSPWRLGVTNWADF.20160608160815.jpg);
-  border: solid #DC143C 15px;
+  background-image: url(https://pbs.twimg.com/profile_banners/1195964600/1604272048/1500x500);
+  border: solid blue 15px;
 }
 
 .lead{
-  color: white;
+  color: #DAF5DD;
   font-weight: bold;
   text-align: center;
-  align-items: baseline;
+  font-size: 20px;
+  font-family: Britannic;
 }
