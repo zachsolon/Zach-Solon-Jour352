@@ -14,35 +14,13 @@ body{
   margin: 0 auto;
 }
 
-/*name on top**/
-#name{
-  font-size: 3em;
-  text-transform:uppercase;
-  text-align: center;
-  border-bottom: 1px solid #33485e;
-  width: 60%;
-  min-width:300px;
-  margin: 0 auto;
-}
-
-/*name banner under contact info*/
-#title{
-  color:#33485e;
-  font-size: 1.5em;
-  font-weight: 600;
-  text-align: center;
-  text-transform:uppercase;
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
+/*format for nav bar name*/
 .navbar-brand{
   font-family: Georgia;
   font-weight: bold;
 }
 
+/*format for nav bar words*/
 .nav-item{
   font-family: Georgia;
 }
@@ -104,6 +82,7 @@ body{
   text-align: center;
 }
 
+/*format for all images*/
 img{
   display: block;
   margin-left: auto;
@@ -130,14 +109,8 @@ img{
   font-family: Georgia;
   font-size: 25px;
 }
-/*format for mission statement*/
-.top{
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
 
+/*format for name at top*/
 .display-4{
   text-align: center;
   color: blue;
@@ -146,28 +119,33 @@ img{
   border
 }
 
+/*format for boxes*/
 .col-md-4{
   text-align: center;
   border: solid blue;
 }
 
+/*format for headings in boxes*/
 .col-md-4 h3{
   text-align: center;
   font-family: Georgia;
   color: black;
 }
 
+/*format for words in boxes*/
 .col-md-4 p{
   text-align: center;
   font-family: Georgia;
   color: black;
 }
 
+/*format for jumbotron*/
 .jumbotron{
   background-image: url(https://pbs.twimg.com/profile_banners/1195964600/1604272048/1500x500);
   border: solid blue 15px;
 }
 
+/*format for job title at top*/
 .lead{
   color: #DAF5DD;
   font-weight: bold;
