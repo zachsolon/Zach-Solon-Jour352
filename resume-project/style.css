@@ -57,7 +57,7 @@ body{
   margin-bottom: 10px;
   margin-right: 0;
   margin-left: 0;
-  width: 100%;
+  width: 1200px%;
   min-width: 300px;
   border: solid blue;
   text-align: center;
@@ -68,12 +68,16 @@ body{
 .jobtitle{
   font-weight: 600;
   font-size: 1.5em;
+  font-family: Georgia;
   color: black;
+  text-align: center;
 }
 
 /*font size for organizations*/
 .organization{
   font-size: 1.25em;
+  color: black;
+  text-align: center;
 }
 
 /*format for dates*/
@@ -84,6 +88,9 @@ body{
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
+  color: black;
+  font-family: Georgia;
+  text-align: center;
 }
 
 /*format for paragraphs*/
@@ -92,6 +99,15 @@ body{
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
+  color: black;
+  font-family: Georgia;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*format for education*/
@@ -100,6 +116,9 @@ body{
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  color: black;
+  font-family: Georgia;
+  font-size: 25px;
 }
 /*format for skills*/
 #do{
@@ -107,6 +126,9 @@ body{
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  color: black;
+  font-family: Georgia;
+  font-size: 25px;
 }
 /*format for mission statement*/
 .top{
