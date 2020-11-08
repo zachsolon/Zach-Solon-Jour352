@@ -12,7 +12,29 @@
   text-align: center;
 }
 
+.chapter-headline{
+  font-size: 2em;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
 p{
   font-family: Georgia, serif;
   line-height: 180%
+}
+
+.image{
+  align-items: center;
+}
+
+#caption{
+  font-size: .80em;
+  color: dark gray;
+}
+
+footer{
+  background-color: Black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
