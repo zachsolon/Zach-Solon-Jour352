@@ -3,6 +3,8 @@
   font-weight: 700;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  background-color: #00008B;
+  color: #FF8C00;
 }
 
 .byline{
@@ -16,6 +18,8 @@
   font-size: 2em;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #FF8C00;
 }
 
 p{
@@ -30,6 +34,10 @@ p{
 #caption{
   font-size: .80em;
   color: dark gray;
+}
+
+iframe{
+  align-items: center;
 }
 
 footer{
