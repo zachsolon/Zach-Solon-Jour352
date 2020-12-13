@@ -32,12 +32,10 @@
   background-color: #00008B
 }
 
-/*Style for ALL text*/
+/*Style for ALL Article text*/
 p{
   font-family: 'Montserrat', sans-serif;
   line-height: 180%
-  display: flex;
-  align-items:center;
 }
 
 /*Style for Images and Videos*/
@@ -50,8 +48,10 @@ p{
 /*Style for Captions*/
 #caption{
   font-size: .80em;
+  font-family: 'Montserrat', sans-serif;
   color: dark gray;
   text-align: center;
+  font-style: italic;
 }
 
 /*Style for Quotes*/
